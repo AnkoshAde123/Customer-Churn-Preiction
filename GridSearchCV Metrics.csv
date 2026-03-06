@@ -1,0 +1,4 @@
+model,best_score,best_params,train_acc,val_acc,test_acc
+GradientBoosting,0.7657402198441243,"{'subsample': 0.8, 'n_estimators': 150, 'min_samples_split': 4, 'max_depth': 3, 'learning_rate': 0.05}",0.7984358336295769,0.7605633802816901,0.7910628019323671
+XGBoost,0.7668072034032225,"{'subsample': 1.0, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.2, 'gamma': 0.2, 'colsample_bytree': 0.5}",0.7959473871311766,0.7585513078470825,0.788647342995169
+RandomForestClassifier,0.7632541734353963,"{'n_estimators': 200, 'min_samples_split': 6, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': None}",0.9872022751510843,0.772635814889336,0.7717391304347826

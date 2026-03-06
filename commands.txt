@@ -1,0 +1,16 @@
+# To check pip version
+pip --version                 # pip 25.2 (python 3.13)
+
+# To Create virtual environment 
+python -m venv .env
+py -3.13 -m venv .env
+
+# To Activate Virtual Environment
+.env\Scripts\activate
+
+# To install Required Packages 
+pip install xgboost scikit-learn pandas numpy seaborn matplotlib  ipywidgets lazypredict streamlit --upgrade
+
+# To launch Webpage
+streamlit run app.py
+
